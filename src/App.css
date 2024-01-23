@@ -40,17 +40,34 @@ body {
 .box-6 {
     background-color: #000000;
 }
-@media(width: 1200px, 1050px, 900px){
+@media(width: 1200px){
     .box-6 { order: 4;}
     .box-5 {order:5;}
     .box-4 {order: 6;}
 }
-@media (width:750px, 600px){
+@media(width: 1050px){
+    .box-6 { order: 4;}
+    .box-5 {order:5;}
+    .box-4 {order: 6;}
+}
+@media(width:900px){
+    .box-6 { order: 4;}
+    .box-5 {order:5;}
+    .box-4 {order: 6;}
+}
+@media (width: 750px){
     .box-3 {order:4}
     .box-4 {order:3;}
     .box-5 {order:5;}
     .box-6 {order:6;} 
 }
+@media (width: 750px){
+    .box-3 {order:4}
+    .box-4 {order:3;}
+    .box-5 {order:5;}
+    .box-6 {order:6;} 
+}
+
 @media (max-width:450px) {
     .content {
         flex-direction: column;
